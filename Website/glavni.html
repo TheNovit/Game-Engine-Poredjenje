@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Engine Comparison - Unity, Godot, Unreal</title>
+    <link rel="stylesheet" href="podglavni.css">
+    <script src="nesto.js"></script>
+    <?php include 'josnesto.php'?>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Game Engine Comparison</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Početna</a></li>
+                    <li><a href="#unity">Unity</a></li>
+                    <li><a href="#godot">Godot</a></li>
+                    <li><a href="#unreal">Unreal</a></li>
+                    <li><a href="#comparison">Poređenje</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Uporedi vodeće game engine-ove</h2>
+            <p>Saznajte sve o Unity, Godot i Unreal Engine platformama i izaberite najbolju za svoj projekat.</p>
+        </div>
+    </section>
+
+    <section id="engines" class="container">
+        <div class="engine-card" id="unity">
+            <h3>Unity</h3>
+            <p>Unity je popularan cross-platform game engine poznat po jednostavnosti korišćenja i velikoj zajednici.</p>
+            <a href="unity.html" class="btn">Saznaj više</a>
+        </div>
+
+        <div class="engine-card" id="godot">
+            <h3>Godot</h3>
+            <p>Besplatan i open-source engine sa unikatnim nodalnim sistemom i podrškom za više programskih jezika.</p>
+            <a href="godot.html" class="btn">Saznaj više</a>
+        </div>
+
+        <div class="engine-card" id="unreal">
+            <h3>Unreal Engine</h3>
+            <p>Najmoćniji engine na tržištu sa fotorealističnim grafikama, korišćen u AAA naslovima.</p>
+            <a href="unreal.html" class="btn">Saznaj više</a>
+        </div>
+    </section>
+
+    <section id="comparison" class="container">
+        <h2>Poređenje Engine-ova</h2>
+        <table>
+            <tr>
+                <th>Karakteristika</th>
+                <th>Unity</th>
+                <th>Godot</th>
+                <th>Unreal</th>
+            </tr>
+            <tr>
+                <td>Cena</td>
+                <td>Besplatan za manje projekte</td>
+                <td>Potpuno besplatan</td>
+                <td>Besplatan do $1M prihoda</td>
+            </tr>
+            <tr>
+                <td>Programski jezik</td>
+                <td>C#</td>
+                <td>GDScript, C#, C++</td>
+                <td>C++, Blueprints</td>
+            </tr>
+            <tr>
+                <td>2D podrška</td>
+                <td>Odlična</td>
+                <td>Veoma dobra</td>
+                <td>Osnovna</td>
+            </tr>
+            <tr>
+                <td>3D podrška</td>
+                <td>Dobra</td>
+                <td>Dobra</td>
+                <td>Veoma dobra</td>
+            </tr>
+        </table>
+    </section>
+
+    
+
+    <section id="contact" class="container">
+        <h2>Kontaktirajte nas</h2>
+        <form>
+            <input type="text" placeholder="Ime" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Vaša poruka" required></textarea>
+            <button type="submit" class="btn">Pošalji</button>
+        </form>
+    </section>
+</body>
+</html>
